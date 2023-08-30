@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container-fluid">
   <h1>SecondPage</h1>
   <NuxtLink to="/">Home</NuxtLink>
   </div>
