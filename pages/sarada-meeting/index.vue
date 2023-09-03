@@ -6,6 +6,9 @@
 
 <template>
   <div>
+    <!-- head : メタ情報は /layouts/sarada.vueに設定 -->
+
+    <!-- body : -->
     <img src="/sarada/image01.jpg" alt="sarada"/>
   </div>
 <!-- 
