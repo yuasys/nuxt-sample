@@ -1,8 +1,8 @@
 <script>
-// This will work in both `<script setup>` and `<script>`
 definePageMeta({
   layout: "custom",
-});
+});// This will work in both `<script setup>` and `<script>`
+
 </script>
 <template>
   <div class="pt-3">
