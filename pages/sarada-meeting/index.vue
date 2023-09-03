@@ -1,11 +1,13 @@
 <script setup>
-definePageMeta({
-  layout: "sarada",
-});// This will work in both `<script setup>` and `<script>`
+  definePageMeta({
+    layout: "sarada",
+  });
 </script>
 
 <template>
-  <p>templateの中です</p>
+  <div>
+    <img src="/sarada/image01.jpg" alt="sarada"/>
+  </div>
 </template>
 
 <style>
