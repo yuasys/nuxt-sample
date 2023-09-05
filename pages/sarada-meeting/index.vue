@@ -7,9 +7,26 @@
 <template>
   <div>
     <!-- head : メタ情報は /layouts/sarada.vueに設定 -->
-
     <!-- body : -->
-    <img src="/sarada/image01.jpg" alt="sarada"/>
+    <header>
+      <div class="">
+        <a href="" class="">
+          <span>salada</span> meeting
+        </a>
+        <nav>
+          <ul>
+            <li><a href="#concept" class="">Concept</a></li>
+            <li><a href="#service" class="">Service</a></li>
+            <li><a href="company" class="">Company</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- top image -->
+    <div class="max-w-full">
+      <img src="/sarada/image01.jpg" alt="sarada"/>
+    </div>
+    
   </div>
 <!-- 
 <!DOCTYPE html>
