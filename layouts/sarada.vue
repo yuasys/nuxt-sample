@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-slate-50 p-12">
+  <div class="container w-11/12 max-w-6xl mx-auto bg-green-50">
     <slot />
   </div>
 </template>
@@ -12,17 +12,4 @@
       { name: 'description', content: '新鮮なつながりを、ひとつのサラダから'}
     ]
   })
-
-// ヘッダーメタ情報を設定【useSeoMataを使った場合】
-/*
-useSeoMeta{{
-  title: 'サラダ・ミーティング２',
-  ogTitle: 'サラダ・ミーティング２',
-  Description: '新鮮なつながりを、ひとつのサラダから',
-  ogDescription: '新鮮なつながりを、ひとつのサラダから',
-  ogImage: '',
-  twitterCard: '',
-}}
-
-*/
 </script>
